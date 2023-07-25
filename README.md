@@ -30,3 +30,14 @@ Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in 
 - Creo un array di numeri interi
 - Creo una const per estrarre i valori corrispondenti agli apici 0,2,4 ecc..
 - li sommo fra loro
+
+# Traccia JSnack4 (Bonus)
+
+Crea due array che hanno un numero di elementi diversi. Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
+
+# Svolgimento
+
+- cre un array con 11 elementi
+- creo un array con 3 elementi
+- utilizzo un for per ripetere istruzioni fino al raggiungimento della condizione
+- creo un if come condizione leght primo array == leght secondo array per sottrarre classi da quella più lunga e dopo aggiungerla a quella più corta
