@@ -1,18 +1,34 @@
-const chestTwo = ['apple', 'apple', 'apple', 'apple', 'apple', 'apple', 'apple', 'apple'];
+const chestOne = [];
 
-const chestOne = ['apple'];
+const chestTwo = [];
+
+// rimane da gestire il caso in cui entrambi i cesti siano vuoti
+
+
+let randomOne = Math.floor((Math.random() * 50));
+let randomTwo = Math.floor((Math.random() * 50));
+
+for (a= 0; a <randomOne; a++){
+    chestOne.push('apple');
+}
+for (b= 0; b <randomTwo; b++){
+    chestTwo.push('apple');
+}
+
+console.log('random 1: ' + chestOne.length)
+console.log('random 2: ' + chestTwo.length)
 
 let media = (chestOne.length + chestTwo.length) / 2;
 
 if(media % 2 !== 0 && chestOne.length > chestTwo.length){
     itemEat = chestOne.shift();
-    
+    alert("Mi mangio una mela così non litigate")
 }
 
 else if(media % 2 !== 0 && chestOne.length < chestTwo.length){
     itemEat = chestTwo.shift();
     
-
+    alert("Mi mangio una mela così non litigate")
 }
 
 media = (chestOne.length + chestTwo.length) / 2;
@@ -20,7 +36,7 @@ media = (chestOne.length + chestTwo.length) / 2;
 
  for(i = 0; i < media; i++){
 
-     if(media % 2 !== 0 && chestOne.length > chestTwo.length && chestOne > media){
+     if(media % 2 !== 0 && chestOne.length > chestTwo.length){
                         
     
 
@@ -33,7 +49,7 @@ media = (chestOne.length + chestTwo.length) / 2;
     
      }   
 
-     else if(media % 2 !== 0 && chestOne.length < chestTwo.length && chestOne < media){
+     else if(media % 2 !== 0 && chestOne.length < chestTwo.length){
          chestTwo.shift();
 
          itemRemove = chestTwo.shift();
