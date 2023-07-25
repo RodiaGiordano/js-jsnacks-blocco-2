@@ -1,7 +1,9 @@
-const chestTwo = ['apple', 'apple', 'apple', 'apple', 'apple', 'apple', 'apple', 'apple'];
+const chestOne = ['apple', 'apple', 'apple', 'apple', 'apple', 'apple', 'apple', 'apple'];
 
-const chestOne = [];
+const chestTwo = [];
 
+let itermRemove = "";
+let itemAdd = "";
 
 const media = (chestOne.length + chestTwo.length) / 2;
 
@@ -11,16 +13,16 @@ for(i = 0; i <= media; i++){
 
     if( chestOne.length > media ){
         
-        let itemRemove = chestOne.shift();
+        itemRemove = chestOne.shift();
 
-        let itemAdd = chestTwo.push(itemRemove);
+        itemAdd = chestTwo.push(itemRemove);
     }
 
     else if( chestTwo.length > media ){
         
-        let itemRemove = chestTwo.shift();
+        itemRemove = chestTwo.shift();
 
-        let itemAdd = chestOne.push(itemRemove);
+        itemAdd = chestOne.push(itemRemove);
     }
 
 
