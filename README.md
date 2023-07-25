@@ -20,3 +20,13 @@ Generatore di “nomi cognomi” casuali: il Grande Gatsby ha una lista di nomi 
 - seleziono un nome a caso
 - seleziono un cognome a caso
 - creo un alert stampando nome + cognome
+
+# Traccia JSnack3
+
+Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
+
+# Svolgimento
+
+- Creo un array di numeri interi
+- Creo una const per estrarre i valori corrispondenti agli apici 0,2,4 ecc..
+- li sommo fra loro
