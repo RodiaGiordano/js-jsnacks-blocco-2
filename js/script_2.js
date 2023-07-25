@@ -6,14 +6,6 @@ const max = invitedName.length;
 
 const fakeInvited = [];
 
-// let randomName ="";
-// let randomSurname="";
-
-
-
-
-
-
 
 
 for(i = 0; i <= max; i++){
@@ -27,13 +19,6 @@ for(i = 0; i <= max; i++){
 
     fakeInvited.push(fakeName);
      
-    
-
     console.log(fakeName);
     
 }
-
-// console.log('nomi generati ' + fakeInvited)
-
-// console.log('randomName: ' + randomName);
-// console.log('randomSurname: ' + randomSurname);
